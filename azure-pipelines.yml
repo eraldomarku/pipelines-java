@@ -15,4 +15,4 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: start "C:\Program Files\Google\Chrome\Application\chrome.exe"
+    script: New-Item "C:\Users\Admin5d29d50f69\Desktop\lkaooo" -itemType Directory
