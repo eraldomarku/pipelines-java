@@ -13,4 +13,4 @@ pool: Nodepool
 steps:
 - task: CmdLine@2
   inputs:
-    script: "C:\Program Files\Google\Chrome\Application\chrome.exe"
+    script: start "C:\Program Files\Google\Chrome\Application\chrome.exe"
