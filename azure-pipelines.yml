@@ -13,7 +13,4 @@ pool: Nodepool
 steps:
 - task: CmdLine@2
   inputs:
-    script: |
-      echo Write your commands here
-      
-      echo Hello world
+    script: C:\Program Files\Google\Chrome\Application\chrome.exe
